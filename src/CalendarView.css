@@ -1,0 +1,29 @@
+.calendar-container {
+  display: flex;
+  justify-content: center;
+  padding: 25px 24px;
+}
+
+.Calendar {
+  margin-left: 50px;
+}
+
+.menstrual {
+  background-color: #ffd6d6;
+  border-radius: 10px;
+}
+
+.follicular {
+  background-color: #d6ffe4;
+  border-radius: 10px;
+}
+
+.ovulation {
+  background-color: #fff0c2;
+  border-radius: 10px;
+}
+
+.luteal {
+  background-color: #e0d6ff;
+  border-radius: 10px;
+}
