@@ -7,12 +7,14 @@ import CalendarView from "./CalendarView";
 function App() {
   return (
     <div className="App">
-      <h1> PeachCycle</h1>
-      <div className="calendar-container">
-        <CalendarView />
-      </div>
+      <div className="container">
+        <h1> PeachCycle</h1>
+        <div className="calendar-container">
+          <CalendarView />
+        </div>
 
-      <CycleSelector />
+        <CycleSelector />
+      </div>
     </div>
   );
 }
