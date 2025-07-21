@@ -11,7 +11,7 @@ export default function CycleSelector() {
   const phase = phaseData[selectedPhase];
 
   return (
-    <div>
+    <div className="phase">
       <label htmlFor="phase-select"> Select your cycle phase:</label>
       <select id="phase-select" value={selectedPhase} onChange={handleChange}>
         <option value="">--Choose a phase--</option>

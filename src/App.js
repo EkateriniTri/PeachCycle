@@ -14,6 +14,23 @@ function App() {
         </div>
 
         <CycleSelector />
+        <footer className="text-center">
+          This project was coded by Katerina Tri, it is open-sourced on{" "}
+          <a
+            href="https://github.com/EkateriniTri/PeachCycle.git"
+            target="_blank"
+            rel="noopener noreferrer">
+            {" "}
+            GitHub{" "}
+          </a>
+          and{" "}
+          <a
+            href="https://peach-cycle.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer">
+            hosted on Netlify
+          </a>
+        </footer>
       </div>
     </div>
   );
