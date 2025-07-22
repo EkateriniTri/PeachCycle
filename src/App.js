@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <h1> PeachCycle</h1>
+        <header> PeachCycle</header>
         <div className="calendar-container">
           <CalendarView />
         </div>

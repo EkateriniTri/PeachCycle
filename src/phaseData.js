@@ -1,7 +1,7 @@
 export const phaseData = {
   menstruation: {
     name: "🔴 Menstruation",
-    range: "Day 1-5",
+    range: [1, 5],
     description: "Time to rest and reflect.",
     suggestions: {
       food: "Warm soups, iron-rich foods",
@@ -12,7 +12,7 @@ export const phaseData = {
   },
   follicular: {
     name: "🌱 Follicular Phase",
-    range: " Day 6-12",
+    range: [6, 12],
     description: "What excites me right now?",
     suggestions: {
       food: "Fresh greens,Protein-rich meals, Fermented foods",
@@ -23,8 +23,8 @@ export const phaseData = {
   },
   ovulation: {
     name: "🔥 Ovulation Phase",
-    range: "Day 13 - 16",
-    prompt: "Where do I feel most alive?",
+    range: [13, 16],
+    description: "Where do I feel most alive?",
     suggestions: {
       food: "Raw veggies, Cooling foods, Smoothies",
       movement: "HIIT, Running, Group classes",
@@ -34,8 +34,8 @@ export const phaseData = {
   },
   luteal: {
     name: "🌕 Luteal Phase",
-    range: "Day 17 - 28",
-    prompt: "What do I need to feel supported today?",
+    range: [17, 28],
+    description: "What do I need to feel supported today?",
     suggestions: {
       food: "Magnesium-rich foods, Dark chocolate, Roasted veggies",
       movement: "Walks, Low-impact movement, Breathwork",

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { phaseData } from "./phaseData";
+import PhaseRange from "./PhaseRange";
 
 export default function CycleSelector() {
   const [selectedPhase, setSelectedPhase] = useState("");
@@ -25,9 +26,7 @@ export default function CycleSelector() {
       {phase && (
         <div className="phase-info">
           <h2>{phase.name}</h2>
-          <p>
-            <strong>Range:</strong> {phase.range}
-          </p>
+          <PhaseRange range={phase.range} />
           <p>
             <strong>Description:</strong> {phase.description}
           </p>
