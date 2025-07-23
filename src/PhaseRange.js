@@ -13,8 +13,10 @@ export default function PhaseRange({ range }) {
   }
 
   return (
-    <p>
-      <strong>Range:</strong> Day {range[0]}–{range[1]}
-    </p>
+    <div className="Phase-box">
+      <p>
+        <strong>Range:</strong> Day {range[0]}–{range[1]}
+      </p>
+    </div>
   );
 }

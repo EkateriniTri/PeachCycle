@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import { phaseData } from "./phaseData";
 import PhaseRange from "./PhaseRange";
+import PhaseDescription from "./PhaseDescription";
+import PhaseFood from "./PhaseFood";
+import PhaseLifestyle from "./PhaseLifestyle";
 
 export default function CycleSelector() {
   const [selectedPhase, setSelectedPhase] = useState("");
@@ -27,18 +30,12 @@ export default function CycleSelector() {
         <div className="phase-info">
           <h2>{phase.name}</h2>
           <PhaseRange range={phase.range} />
-          <p>
-            <strong>Description:</strong> {phase.description}
-          </p>
-          <p>
-            <strong>Food:</strong> {phase.suggestions.food}
-          </p>
-          <p>
-            <strong>Movement:</strong> {phase.suggestions.movement}
-          </p>
-          <p>
-            <strong>Clothing:</strong> {phase.suggestions.clothing}
-          </p>
+          <PhaseDescription description={phase.description} />
+          <PhaseFood food={phase.suggestions.food} />
+          <PhaseLifestyle
+            movement={phase.suggestions.movement}
+            clothing={phase.suggestions.clothing}
+          />
         </div>
       )}
     </div>

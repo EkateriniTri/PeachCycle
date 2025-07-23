@@ -4,7 +4,7 @@ export const phaseData = {
     range: [1, 5],
     description: "Time to rest and reflect.",
     suggestions: {
-      food: "Warm soups, iron-rich foods",
+      food: ["Warm soups", "iron-rich foods"],
       movement: "Gentle yoga, walking",
       clothing: "Comfy, cozy layers",
     },
@@ -15,7 +15,7 @@ export const phaseData = {
     range: [6, 12],
     description: "What excites me right now?",
     suggestions: {
-      food: "Fresh greens,Protein-rich meals, Fermented foods",
+      food: ["Fresh  greens", "Protein  rich  meals", "Fermented  foods"],
       movement: "Creative tasks, Strength workouts, Dance",
       clothing: "Linen, Pastels, Breathable activewear",
     },
@@ -26,7 +26,7 @@ export const phaseData = {
     range: [13, 16],
     description: "Where do I feel most alive?",
     suggestions: {
-      food: "Raw veggies, Cooling foods, Smoothies",
+      food: ["Raw veggies", "Cooling foods", "Smoothies"],
       movement: "HIIT, Running, Group classes",
       clothing: "Silk, Fitted styles, Fun accessories",
     },
@@ -37,7 +37,7 @@ export const phaseData = {
     range: [17, 28],
     description: "What do I need to feel supported today?",
     suggestions: {
-      food: "Magnesium-rich foods, Dark chocolate, Roasted veggies",
+      food: ["Magnesium-rich foods", "Dark chocolate", "Roasted veggies"],
       movement: "Walks, Low-impact movement, Breathwork",
       clothing: "Soft joggers, Layered knits, Warm socks",
     },
