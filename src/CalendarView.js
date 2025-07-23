@@ -1,12 +1,13 @@
 import React, { useState } from "react";
 import Calendar from "react-calendar";
 import "react-calendar/dist/Calendar.css";
+import "./CalendarView.css";
 
 export default function CalendarView() {
   const [date, setDate] = useState(new Date());
 
   return (
-    <div>
+    <div className="CalendarView">
       <Calendar
         onChange={setDate}
         value={date}

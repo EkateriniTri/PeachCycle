@@ -1,29 +1,33 @@
-.calendar-container {
-  display: flex;
-  justify-content: center;
-  padding: 25px 24px;
+.react-calendar {
+  overflow: hidden;
+  padding: 25px 24px !important;
+  border-radius: 18px !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
-.Calendar {
-  margin-left: 50px;
+.CalendarView {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
 }
 
 .menstrual {
-  background-color: #ffd6d6;
-  border-radius: 10px;
+  background-color: #ffd6d6 !important;
+  border-radius: 10px !important;
 }
 
 .follicular {
-  background-color: #d6ffe4;
-  border-radius: 10px;
+  background-color: #d6ffe4 !important;
+  border-radius: 10px !important;
 }
 
 .ovulation {
-  background-color: hsl(305, 40%, 68%);
-  border-radius: 10px;
+  background-color: hsl(305, 40%, 68%) !important;
+  border-radius: 10px !important;
 }
 
 .luteal {
-  background-color: #e0d6ff;
-  border-radius: 10px;
+  background-color: #e0d6ff !important;
+  border-radius: 10px !important;
 }
