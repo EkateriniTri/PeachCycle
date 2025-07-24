@@ -5,6 +5,7 @@ import PhaseDescription from "./PhaseDescription";
 import PhaseFood from "./PhaseFood";
 import PhaseLifestyle from "./PhaseLifestyle";
 import "./CalendarView.css";
+import "./CycleSelector.css";
 
 export default function CycleSelector() {
   const [selectedPhase, setSelectedPhase] = useState("");

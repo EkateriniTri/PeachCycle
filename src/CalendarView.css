@@ -7,6 +7,7 @@
 
 .CalendarView {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 20px;
@@ -30,4 +31,10 @@
 .luteal {
   background-color: #e0d6ff !important;
   border-radius: 10px !important;
+}
+
+.CalendarView p {
+  margin-top: 12px;
+  font-weight: 500;
+  color: #555;
 }
