@@ -15,7 +15,14 @@ export const phaseData = {
     range: [6, 12],
     description: "What excites me right now?",
     suggestions: {
-      food: ["Fresh  greens", "Protein  rich  meals", "Fermented  foods"],
+      food: [
+        "Fresh  greens",
+        "Protein  rich  meals",
+        "Omega-3 rich fish",
+        "Fermented  foods",
+        "Seeds and nuts",
+        "Berries for antioxidants",
+      ],
       movement: "Creative tasks, Strength workouts, Dance",
       clothing: "Linen, Pastels, Breathable activewear",
     },
