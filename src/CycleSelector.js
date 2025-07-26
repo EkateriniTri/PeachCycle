@@ -33,7 +33,7 @@ export default function CycleSelector() {
           <h2>{phase.name}</h2>
           <PhaseRange range={phase.range} />
           <PhaseDescription description={phase.description} />
-          <PhaseFood food={phase.suggestions.food} />
+          <PhaseFood food={phase?.food} />
           <PhaseLifestyle
             movement={phase.suggestions.movement}
             clothing={phase.suggestions.clothing}

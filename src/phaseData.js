@@ -3,50 +3,90 @@ export const phaseData = {
     name: "🔴 Menstruation",
     range: [1, 5],
     description: "Time to rest and reflect.",
+    food: [
+      {
+        name: "Spinach",
+        category: "Iron-Rich",
+        reason: "Replenishes iron lost during menstruation.",
+      },
+      {
+        name: "Dark Chocolate",
+        category: "Magnesium-Rich",
+        reason: "Helps reduce cramps and boosts mood.",
+      },
+    ],
     suggestions: {
-      food: ["Warm soups", "iron-rich foods"],
-      movement: "Gentle yoga, walking",
-      clothing: "Comfy, cozy layers",
+      movement: ["Creative tasks", ",Strength workouts", ",Dance"],
+      clothing: ["Linen, Pastels", "Breathable activewear"],
     },
-    oppaNotes: [], // Leave empty for now — waiting for Peach inspiration 😛
+    oppaNotes: [],
   },
+
   follicular: {
     name: "🌱 Follicular Phase",
     range: [6, 12],
     description: "What excites me right now?",
+    food: [
+      {
+        name: "Fresh greens",
+        category: "Leafy",
+        reason: "Support estrogen production",
+      },
+      {
+        name: "Fermented foods",
+        category: "Gut health",
+        reason: "Support digestion and hormones",
+      },
+    ],
     suggestions: {
-      food: [
-        "Fresh  greens",
-        "Protein  rich  meals",
-        "Omega-3 rich fish",
-        "Fermented  foods",
-        "Seeds and nuts",
-        "Berries for antioxidants",
-      ],
-      movement: "Creative tasks, Strength workouts, Dance",
-      clothing: "Linen, Pastels, Breathable activewear",
+      movement: ["Creative tasks", "Strength workouts", "Dance"],
+      clothing: ["Linen", "Pastels", "Breathable activewear"],
     },
     oppaNotes: [],
   },
+
   ovulation: {
     name: "🔥 Ovulation Phase",
     range: [13, 16],
     description: "Where do I feel most alive?",
+    food: [
+      {
+        name: "Raw veggies",
+        category: "Cooling",
+        reason: "Support detoxification",
+      },
+      {
+        name: "Smoothies",
+        category: "Refreshing",
+        reason: "Keep energy and hydration up",
+      },
+    ],
     suggestions: {
-      food: ["Raw veggies", "Cooling foods", "Smoothies"],
-      movement: "HIIT, Running, Group classes",
-      clothing: "Silk, Fitted styles, Fun accessories",
+      movement: ["HIIT", "Running", "Group classes"],
+      clothing: ["Silk", "Fitted styles", "Fun accessories"],
     },
     oppaNotes: [],
   },
+
   luteal: {
     name: "🌕 Luteal Phase",
     range: [17, 28],
     description: "What do I need to feel supported today?",
+    food: [
+      {
+        name: "Dark chocolate",
+        category: "Magnesium-rich",
+        reason: "Eases PMS and boosts mood",
+      },
+      {
+        name: "Roasted veggies",
+        category: "Warm foods",
+        reason: "Support slower digestion",
+      },
+    ],
     suggestions: {
-      food: ["Magnesium-rich foods", "Dark chocolate", "Roasted veggies"],
-      movement: "Walks, Low-impact movement, Breathwork",
-      clothing: "Soft joggers, Layered knits, Warm socks",
+      movement: ["Walks", ",Low-impact movement", ",Breathwork"],
+      clothing: ["Soft joggers", ",Layered knits", ",Warm socks"],
     },
     oppaNotes: [],
   },
