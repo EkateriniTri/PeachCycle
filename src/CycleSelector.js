@@ -35,6 +35,7 @@ export default function CycleSelector() {
           <PhaseRange range={phase.range} />
           <PhaseDescription description={phase.description} />
           <PhaseFood food={phase?.food} />
+
           <PhaseAvoidFood avoid={phase.avoid} />
           <PhaseLifestyle
             movement={phase.suggestions.movement.join(",")}

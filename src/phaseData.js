@@ -10,11 +10,22 @@ export const phaseData = {
         reason: "Replenishes iron lost during menstruation.",
       },
       {
-        name: "Dark Chocolate",
-        category: "Magnesium-Rich",
-        reason: "Helps reduce cramps and boosts mood.",
+        name: "Lentils",
+        category: "Iron-Rich",
+        reason: "Replenishes iron lost during menstruation.",
+      },
+      {
+        name: "Red meat (if you eat it)",
+        category: "Iron-Rich",
+        reason: "Replenishes iron lost during menstruation.",
+      },
+      {
+        name: "Pumpkin seeds",
+        category: "Iron-Rich",
+        reason: "Replenishes iron lost during menstruation.",
       },
     ],
+
     avoid: [
       {
         name: "Caffeine",
@@ -27,7 +38,7 @@ export const phaseData = {
     ],
 
     suggestions: {
-      movement: ["Creative tasks", "Strength workouts", ",Dance"],
+      movement: ["Creative tasks", "Strength workouts", "Dance"],
       clothing: ["Linen, Pastels", "Breathable activewear"],
     },
     oppaNotes: [],
@@ -96,7 +107,7 @@ export const phaseData = {
       },
     ],
     suggestions: {
-      movement: ["Walks", ",Low-impact movement", "Breathwork"],
+      movement: ["Walks", "Low-impact movement", "Breathwork"],
       clothing: ["Soft joggers", "Layered knits", "Warm socks"],
     },
     oppaNotes: [],
