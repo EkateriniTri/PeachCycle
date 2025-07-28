@@ -15,8 +15,19 @@ export const phaseData = {
         reason: "Helps reduce cramps and boosts mood.",
       },
     ],
+    avoid: [
+      {
+        name: "Caffeine",
+        reason: "May increase cramps and irritabilitty.",
+      },
+      {
+        name: "Salty snacks",
+        reason: "Can worsen bloating.",
+      },
+    ],
+
     suggestions: {
-      movement: ["Creative tasks", ",Strength workouts", ",Dance"],
+      movement: ["Creative tasks", "Strength workouts", ",Dance"],
       clothing: ["Linen, Pastels", "Breathable activewear"],
     },
     oppaNotes: [],
@@ -85,8 +96,8 @@ export const phaseData = {
       },
     ],
     suggestions: {
-      movement: ["Walks", ",Low-impact movement", ",Breathwork"],
-      clothing: ["Soft joggers", ",Layered knits", ",Warm socks"],
+      movement: ["Walks", ",Low-impact movement", "Breathwork"],
+      clothing: ["Soft joggers", "Layered knits", "Warm socks"],
     },
     oppaNotes: [],
   },

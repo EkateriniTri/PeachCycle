@@ -4,6 +4,7 @@ import PhaseRange from "./PhaseRange";
 import PhaseDescription from "./PhaseDescription";
 import PhaseFood from "./PhaseFood";
 import PhaseLifestyle from "./PhaseLifestyle";
+import PhaseAvoidFood from "./PhaseAvoidFood";
 import "./CalendarView.css";
 import "./CycleSelector.css";
 
@@ -34,9 +35,10 @@ export default function CycleSelector() {
           <PhaseRange range={phase.range} />
           <PhaseDescription description={phase.description} />
           <PhaseFood food={phase?.food} />
+          <PhaseAvoidFood avoid={phase.avoid} />
           <PhaseLifestyle
-            movement={phase.suggestions.movement}
-            clothing={phase.suggestions.clothing}
+            movement={phase.suggestions.movement.join(",")}
+            clothing={phase.suggestions.clothing.join(",")}
           />
         </div>
       )}
